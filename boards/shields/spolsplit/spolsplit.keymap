@@ -1,0 +1,26 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// |   ESC   |    `    |    1    |    2    |    3    |    4    |    5    |                                |    6    |    7    |    8    |    9    |    0    |    -    |    =    |   BSPC  |
+// |   M1    |   TAB   |    Q    |    W    |    E    |    R    |    T    |                                |    Y    |    U    |    I    |    O    |    P    |    [    |    ]    |    \    |
+// |   M2    |  CAPS   |    A    |    S    |    D    |    F    |    G    |   SPACE |            |   SPACE |    H    |    J    |    K    |    L    |    ;    |    '    | RETURN  | RETURN  |
+// |   M3    |  SHIFT  |    Z    |    X    |    C    |    V    |    B    |   SPACE |            | CTRL+V  |    N    |    M    |    ,    |    .    |    /    |  SHIFT  |  R CTRL |   M4    |
+// |   M5    |  R ALT  |   GUI   |   CMD   | ESCAPE  |   SPACE |   SPACE |   SPACE |            |   GUI   |   DEL   |  SPACE  |   SPACE |  SCAPE  |  RETURN |  SPACE  |   TAB   |   M6    |
+            bindings = <
+    &kp ESC  &kp GRAVE  &kp 1    &kp 2     &kp 3     &kp 4     &kp 5                                          &kp 6     &kp 7     &kp 8     &kp 9     &kp 0     &kp MINUS  &kp EQUAL   &kp BSPC
+	&kp A    &kp TAB    &kp Q    &kp W     &kp E     &kp R     &kp T                                          &kp Y     &kp U     &kp I     &kp O     &kp P     &kp LBKT   &kp RBKT    &kp BLSH
+    &kp A    &kp TAB    &kp A    &kp B     &kp C     &kp D     &kp D     &kp SPACE                  &kp SPACE &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp SQT    &kp RET     &kp RET
+    &kp A    &kp LSHIFT &kp Z    &kp X     &kp C     &kp V     &kp B     &kp SPACE        &kp SPACE &kp SPACE &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHIFT &kp RCTRL   &kp A
+    &kp A    &kp RALT   &kp A    &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE        &kp BSPC  &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp RET   &kp SPACE  &kp TAB     &kp A
+            >;
+
+            // sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        };
+    };
+};
