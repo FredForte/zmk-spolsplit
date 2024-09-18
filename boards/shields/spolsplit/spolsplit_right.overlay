@@ -1,4 +1,4 @@
-#include "spolsplit.dtsi""
+#include "spolsplit.dtsi"
 
 &kscan0 {
 	col-gpios
