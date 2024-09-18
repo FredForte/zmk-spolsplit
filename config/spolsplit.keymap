@@ -16,10 +16,10 @@
 // |   M5    |  R ALT  |   GUI   |   CMD   | ESCAPE  |   SPACE |   SPACE |   SPACE |            |   GUI   |   DEL   |  SPACE  |   SPACE |  SCAPE  |  RETURN |  SPACE  |   TAB   |   M6    |
             bindings = <
     &kp ESC       &kp GRAVE  &kp A    &kp A     &kp A     &kp A     &kp A                                          &kp A     &kp A     &kp A     &kp A     &kp A     &kp MINUS  &kp EQUAL   &kp BSPC
-	&kp BT_SEL 0  &kp TAB    &kp Q    &kp W     &kp E     &kp R     &kp T                                          &kp Y     &kp U     &kp I     &kp O     &kp P     &kp LBKT   &kp RBKT    &kp NUBS
-    &kp BT_SEL 1  &kp TAB    &kp A    &kp B     &kp C     &kp D     &kp D     &kp SPACE                  &kp SPACE &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp SQT    &kp RET     &kp RET
-    &kp BT_SEL 2  &kp LSHIFT &kp Z    &kp X     &kp C     &kp V     &kp B     &kp SPACE        &kp SPACE &kp SPACE &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHIFT &kp RCTRL   &kp A
-    &kp BT_CLR    &kp RALT   &kp A    &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE        &kp BSPC  &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp RET   &kp SPACE  &kp TAB     &kp A
+	&bt BT_SEL 0  &kp TAB    &kp Q    &kp W     &kp E     &kp R     &kp T                                          &kp Y     &kp U     &kp I     &kp O     &kp P     &kp LBKT   &kp RBKT    &kp NUBS
+    &bt BT_SEL 1  &kp TAB    &kp A    &kp B     &kp C     &kp D     &kp D     &kp SPACE                  &kp SPACE &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp SQT    &kp RET     &kp RET
+    &bt BT_SEL 2  &kp LSHIFT &kp Z    &kp X     &kp C     &kp V     &kp B     &kp SPACE        &kp SPACE &kp SPACE &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHIFT &kp RCTRL   &kp A
+    &bt BT_CLR    &kp RALT   &kp A    &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE        &kp BSPC  &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp RET   &kp SPACE  &kp TAB     &kp A
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
