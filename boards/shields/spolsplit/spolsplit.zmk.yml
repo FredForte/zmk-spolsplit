@@ -1,0 +1,13 @@
+file_format: "1"
+id: sposplit
+name: SpolSplit
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [nice_nano_v2]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - spolsplit_left
+  - spolsplit_right
