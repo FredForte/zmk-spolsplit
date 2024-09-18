@@ -1,9 +1,9 @@
 file_format: "1"
-id: sposplit
+id: spolsplit
 name: SpolSplit
 type: shield
-url: https://github.com/foostan/crkbd/
-requires: [nice_nano_v2]
+url: https://github.com/kata0510/Lily58
+requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
