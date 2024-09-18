@@ -1,8 +1,6 @@
 #include "spolsplit.dtsi"
 
-&default_transform {
-    col-offset = <8>;
-};
+
 
 &kscan0 {
 	col-gpios
