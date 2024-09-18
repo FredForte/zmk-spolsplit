@@ -20,7 +20,7 @@
     &kp A    &kp RALT   &kp A    &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE        &kp BSPC  &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp RET   &kp SPACE  &kp TAB     &kp A
             >;
 
-            // sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
