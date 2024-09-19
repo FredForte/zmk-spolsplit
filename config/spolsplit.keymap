@@ -13,13 +13,13 @@
 // |   M1    |   TAB   |    Q    |    W    |    E    |    R    |    T    |                                |    Y    |    U    |    I    |    O    |    P    |    [    |    ]    |    \    |
 // |   M2    |  CAPS   |    A    |    S    |    D    |    F    |    G    |   SPACE |            |   SPACE |    H    |    J    |    K    |    L    |    ;    |    '    | RETURN  | RETURN  |
 // |   M3    |  SHIFT  |    Z    |    X    |    C    |    V    |    B    |   SPACE |            | CTRL+V  |    N    |    M    |    ,    |    .    |    /    |  SHIFT  |  R CTRL |   M4    |
-// |   M5    |  R ALT  |   GUI   |   CMD   | ESCAPE  |   SPACE |   SPACE |   SPACE |            |   GUI   |   DEL   |  SPACE  |   SPACE |  SCAPE  |  RETURN |  SPACE  |   TAB   |   M6    |
+// |   M5    |  R ALT  |   GUI   |   CMD   | ESCAPE  |   SPACE |   SPACE |   F3    |            |   GUI   |   DEL   |  SPACE  |   SPACE |  SCAPE  |  RETURN |  SPACE  |   TAB   |   M6    |
             bindings = <
     &kp ESC       &kp GRAVE  &kp N1   &kp N2    &kp N3    &kp N4    &kp N5                               &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp MINUS  &kp EQUAL   &kp BSPC
-	&kp C_RESET   &kp TAB    &kp Q    &kp W     &kp E     &kp R     &kp T                                &kp Y     &kp U     &kp I     &kp O     &kp P     &kp LBKT   &kp RBKT    &kp NUBS
+	&kp C_RESET   &kp TAB    &kp Q    &kp W     &kp E     &kp R     &kp T                                &kp Y     &kp U     &kp I     &kp O     &kp P     &kp LBKT   &kp RBKT    &kp BSLH
     &bt BT_SEL 1  &kp CAPS   &kp A    &kp S     &kp D     &kp F     &kp G     &kp SPACE         &kp SPACE &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp SQT    &kp RET     &kp RET
     &bt BT_SEL 0  &kp LSHIFT &kp Z    &kp X     &kp C     &kp V     &kp B     &kp SPACE         &kp SPACE &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHIFT &kp RCTRL   &kp A
-    &bt BT_CLR    &kp LCTRL  &kp LALT &kp LGUI  &kp SPACE &kp SPACE &kp SPACE &kp SPACE         &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp SPACE &kp RET   &kp SPACE  &kp TAB     &kp A
+    &bt BT_CLR    &kp LCTRL  &kp LALT &kp LGUI  &kp SPACE &kp SPACE &kp SPACE &kp F3            &kp SPACE &kp BSPC  &kp SPACE &kp SPACE &kp SPACE &kp LEFT  &kp UP     &kp RIGHT   &kp DOWN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
