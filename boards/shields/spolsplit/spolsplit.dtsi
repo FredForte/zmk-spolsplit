@@ -49,11 +49,11 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6) RC(4,7)          RC(4,8)
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
         width = <128>;
-        height = <32>;
+        height = <64>;
         segment-offset = <0x00>;
         page-offset = <0x00>;
         display-offset = <0x00>;
-        multiplex-ratio = <31>;
+        multiplex-ratio = <63>;
         segment-remap;
         com-invdir;
         com-sequential;
