@@ -5,10 +5,6 @@
 
 #include <dt-bindings/zmk/mouse.h>
 
-#include <behaviors/mouse_keys.dtsi>
-#include <behaviors/mouse_key_press.dtsi>
-#include <behaviors/mouse_key_toggle.dtsi>
-
 #define DEF 0
 #define TSP 1
 #define GME 2
