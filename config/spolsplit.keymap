@@ -23,7 +23,7 @@
     &kp ESC       &kp GRAVE  &kp N1   &kp N2    &kp N3    &kp N4    &kp N5                                       &kp N6       &kp N7    &kp N8    &kp N9    &kp N0    &kp MINUS  &kp EQUAL   &kp BSPC
     &kp LS(TAB)   &kp TAB    &kp Q    &kp W     &kp E     &kp R     &kp T                                        &kp Y        &kp U     &kp I     &kp O     &kp P     &kp LBKT   &kp RBKT    &kp BSLH
     &kp LC(GRAVE) &kp CAPS   &kp A    &kp S     &kp D     &kp F     &kp G       &msc SCRL_DOWN        &mkp RCLK  &kp H        &kp J     &kp K     &kp L     &kp SEMI  &kp SQT    &kp RET     &kp RET
-    &kp LG(N0)    &kp LSHIFT &kp Z    &kp X     &kp C     &kp V     &kp B       &msc SCRL_UP          $mkp LCLK  &kp N        &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHIFT &kp RCTRL   &kp A
+    &kp LG(N0)    &kp LSHIFT &kp Z    &kp X     &kp C     &kp V     &kp B       &msc SCRL_UP          &mkp LCLK  &kp N        &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHIFT &kp RCTRL   &kp A
     &kp LG(N1)    &kp LCTRL  &kp LALT &kp LGUI  &kp SPACE &kp SPACE &lt 2 DEL   &kp DEL               &mkp MCLK  &lt 1 BSPC  &kp SPACE &kp SPACE &kp SPACE &kp LEFT  &kp UP     &kp RIGHT   &mo 1
             >;
 
