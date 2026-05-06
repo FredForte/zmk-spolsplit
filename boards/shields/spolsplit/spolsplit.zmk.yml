@@ -2,12 +2,13 @@ file_format: "1"
 id: spolsplit
 name: SpolSplit
 type: shield
-url: https://github.com/foostan/crkbd/
+url: https://github.com/FredForte/zmk-spolsplit
 requires: [nice_nano_v2]
 exposes: [i2c_oled]
 features:
   - keys
   - display
+  - studio
 siblings:
   - spolsplit_left
   - spolsplit_right
